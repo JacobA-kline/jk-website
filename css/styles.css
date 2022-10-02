@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}  
+
+h1 {
+    font-size: 4.625rem;    
+    font-family: 'Sacramento', cursive;  
+}
+
+hr {border-style: none;
+    border-top-style: dotted; 
+    border-color: gray;
+    border-width: 5px;
+    width: 10%;
+
+}
+
+.top-container {
+    background-color: #e0ebe8;
+    padding-top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 575px;
+    top: 20px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 575px;
+
+}
+
+.jacobs-img {
+    height: 500px;
+    width: 500px;
+    padding-top: 50px;
+}
+
+.cloud-computing-img {
+    height: 150px;
+    width: 150px;
+}
+
+.diamond-img {
+    height: 150px;
+    width: 150px;
+}
