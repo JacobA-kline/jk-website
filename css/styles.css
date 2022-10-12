@@ -11,6 +11,7 @@ h1 {
     font-family: 'Sacramento', cursive;
     line-height: 0.8;
     margin: 50px, auto, 0, auto;  
+    padding-bottom: 10px;
 }
 
 h2 {
@@ -18,6 +19,14 @@ h2 {
     font-size: 1.75rem;
     font-weight: normal;
     padding-bottom: 10px;
+}
+
+h3 {
+    color: #62acac;
+}
+
+p {
+    line-height: 1.8;
 }
 
 
@@ -55,6 +64,12 @@ hr {
 
 }
 
+.bottom-container {
+    background-color: #e0ebe8;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
 .jacobs-img {
     height: 500px;
     width: 500px;
@@ -87,6 +102,54 @@ hr {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 1.6;
+    
 }
 
+.contact-me {
+    padding-bottom: 50px;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.hobbie-dis {
+    padding-bottom: 40px;
+}
+
+.btn {
+    background: #62acac;
+    background-image: -webkit-linear-gradient(top, #62acac, #77dbdb);
+    background-image: -moz-linear-gradient(top, #62acac, #77dbdb);
+    background-image: -ms-linear-gradient(top, #62acac, #77dbdb);
+    background-image: -o-linear-gradient(top, #62acac, #77dbdb);
+    background-image: linear-gradient(to bottom, #62acac, #77dbdb);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    text-shadow: 0px 0px 3px #62acac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #f2fafa;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.footer-link {
+    color:#62acac;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 40px;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
