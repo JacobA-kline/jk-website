@@ -66,8 +66,8 @@ hr {
 
 .bottom-container {
     background-color: #e0ebe8;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .jacobs-img {
@@ -147,6 +147,7 @@ hr {
 .footer-link {
     color:#62acac;
     font-family: 'Montserrat', sans-serif;
+    font-size: large;
     margin: 30px 40px;
     text-decoration: none;
     font-weight: bold;
@@ -156,4 +157,9 @@ hr {
 
 .footer-link:hover {
     color: #3cb0fd;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    padding-top: 30px;
 }
